@@ -1,0 +1,46 @@
+.img_hero4{
+    margin-top: 250px;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img//giorgio-trovato-_geAgtjqLzY-unsplash.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        color: white;
+        text-align: center;
+        line-height: 400px;
+        font-size: 50px;
+        
+    }
+}
+
+.section_contact{
+    height: 70vh;
+   
+    .formulario_contacto{
+
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:  10px;
+        text-transform: uppercase;
+        color: red;
+
+        .button{
+            background-color: rgb(165, 165, 248);
+            color: white;
+            padding: 10px 40px;
+            border-radius: 20px;
+            border: none;
+            width: 100;
+        
+        }
+
+        textarea{
+            padding: 5px;
+        }
+    }
+}

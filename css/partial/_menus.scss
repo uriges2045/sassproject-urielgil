@@ -1,0 +1,25 @@
+.especiales{
+    height: 500px;
+    width: 100%;
+    padding: 50px;
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .food_container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+        .food{
+            margin-top: 20px;
+        }
+        
+    }
+    
+
+}
+
+

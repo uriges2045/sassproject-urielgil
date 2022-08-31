@@ -1,0 +1,301 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.header .logo {
+  margin-left: 20px;
+  height: 150px;
+}
+.header .information li {
+  display: block;
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: rgba(255, 0, 0, 0.795);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  top: 150px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .nav__menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+}
+.nav .nav__menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.nav .nav__menu a:hover {
+  color: black;
+}
+
+.bienvenida {
+  background-color: rgb(146, 141, 141);
+  height: 125px;
+  text-align: center;
+  color: white;
+  line-height: 125px;
+  font-size: 30px;
+}
+
+.img_hero {
+  margin-top: 250px;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/png-transparent-salad-with-rice-and-grilled-meats-on-plates-and-saucers-peruvian-cuisine-full-breakfast-buffet-catering-food-menu-recipe-breakfast-chi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article_content {
+  /* height: 400px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding: 80px;
+  gap: 40px;
+}
+.article_content .img_article {
+  width: 40%;
+}
+.article_content p {
+  width: 40%;
+}
+
+.img_hero2 {
+  margin-top: 250px;
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/Guía-de-la-Mejor-Comida-Peruana.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+
+.especiales {
+  height: 500px;
+  width: 100%;
+  padding: 50px;
+}
+.especiales h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.especiales .food_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.especiales .food_container .food {
+  margin-top: 20px;
+}
+
+.img_hero1 {
+  margin-top: 250px;
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/cocina_peruana_andina_a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img_hero1 .img_hero1 h1 {
+  color: white;
+  text-align: center;
+  line-height: 400px;
+  font-size: 50px;
+}
+
+.section_nosotros {
+  text-align: center;
+  height: 300px;
+  width: 100%;
+  padding: 40px;
+}
+.section_nosotros h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.section_nosotros p {
+  font-size: 20px;
+}
+
+.article_nosotros {
+  height: 880px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.article_nosotros .team {
+  height: 550px;
+  text-align: center;
+  padding: 60px;
+  display: flex;
+  background-color: rgb(252, 244, 230);
+  justify-content: center;
+  gap: 400px;
+}
+.article_nosotros .team .nombre {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.article_nosotros .team .article_team p {
+  padding: 0 50px;
+}
+.article_nosotros .team .img-profile {
+  height: 200px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.img_hero3 {
+  margin-top: 250px;
+  width: 100%;
+  height: 400px;
+  background-image: url("../img//ca-creative-8_Tlng54n8Y-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img_hero3 h1 {
+  color: white;
+  text-align: center;
+  line-height: 400px;
+  font-size: 50px;
+}
+
+.section_img {
+  height: 700px;
+  padding-top: 70px;
+  text-align: center;
+  background-color: rgb(252, 244, 230);
+}
+.section_img .container_img {
+  margin: 90px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section_img .container_img img {
+  height: 200px;
+  width: 300px;
+}
+
+.img_hero4 {
+  margin-top: 250px;
+  width: 100%;
+  height: 400px;
+  background-image: url("../img//giorgio-trovato-_geAgtjqLzY-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img_hero4 h1 {
+  color: white;
+  text-align: center;
+  line-height: 400px;
+  font-size: 50px;
+}
+
+.section_contact {
+  height: 70vh;
+}
+.section_contact .formulario_contacto {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  color: red;
+}
+.section_contact .formulario_contacto .button {
+  background-color: rgb(165, 165, 248);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+  width: 100;
+}
+.section_contact .formulario_contacto textarea {
+  padding: 5px;
+}
+
+.footer {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(211, 205, 205);
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer .footer_principal {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  line-height: 30px;
+}
+.footer .footer_principal .footer_principal h3 {
+  margin-bottom: 30px;
+}
+.footer .footer_principal .pie_pagina {
+  width: 20%;
+}
+.footer .footer_principal .pie_pagina a {
+  text-decoration: none;
+  color: black;
+}
+.footer .footer_principal .pie_pagina a:hover {
+  color: white;
+}
+.footer .footer_principal .line {
+  border: 1px solid rgb(129, 125, 125);
+}
+
+.copyright {
+  background-color: rgb(53, 51, 51);
+  width: 100%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}/*# sourceMappingURL=stilo.css.map */

@@ -1,0 +1,42 @@
+.img_hero3{
+    margin-top: 250px;
+    width: 100%;
+    height: 400px;
+    background-image: url('../img//ca-creative-8_Tlng54n8Y-unsplash.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        color: white;
+        text-align: center;
+        line-height: 400px;
+        font-size: 50px;
+        
+    }
+}
+
+.section_img{
+    height: 700px;
+    padding-top: 70px;
+    text-align: center;
+    background-color: rgb(252, 244, 230);
+
+    .container_img{
+    
+        margin: 90px 0 ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            height: 200px;
+            width: 300px;
+        }
+    }
+
+    
+    
+}
+
